@@ -66,7 +66,8 @@ Convert downloaded `.mp4` files to `.wav` format using the provided bash script.
 
 **Command**:  
 ```bash
-bash preprocess_audio.sh <input_directory> <output_directory> <num_cpus>
+bash chmod +x ./audio_preprocess.sh
+bash ./audio_preprocess.sh <input_directory> <output_directory> <num_cpus>
 ```
 
 **Requirements**:  
