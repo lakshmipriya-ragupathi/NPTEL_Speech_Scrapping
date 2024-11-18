@@ -130,9 +130,9 @@ python dashboard_preprocess.py -i <INPUT_PATH> -o <OUTPUT_FOLDER>
 
 ## **Output Files**
 
-1. **Audio Files**: `.wav` format in the specified output directory.  
-2. **Transcripts**: Cleaned `.txt` files for each PDF.  
-3. **Training Manifest**: JSONL file with audio-text pairs.  
+1. **Audio Files**: `.mp3` upon downloading, `.wav` format in the specified output directory upon conversion from `.mp3` to `.wav` and `.wav` format in the specified output directory upon cropping.  
+2. **Transcripts**: `.pdf` files upon downloading,and cleaned `.txt` files for each PDF.  
+3. **Training Manifest**: JSONL file with audio-duration-text pairs.  
 4. **Dashboard Data**:  
    - CSV with fields: `duration`, `text`, `word_count`, `char_count`, `duration_bin`, `audio_id`.  
    - Summary CSV with `total_hours`, `total_utterances`, `vocabulary_size`, and `alphabet_size`.  
