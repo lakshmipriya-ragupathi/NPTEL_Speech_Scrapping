@@ -16,7 +16,8 @@ Ensure you have the following Python libraries and system tools installed before
   - `pypdf2`  
   - `num2words`  
   - `mutagen`  
-  - `pandas`  
+  - `pandas`
+  - `wave`
 
 - **System Tools**:  
   - `GNU Parallel`  
@@ -71,6 +72,16 @@ bash preprocess_audio.sh <input_directory> <output_directory> <num_cpus>
 **Requirements**:  
 - `GNU Parallel`  
 - `ffmpeg`
+
+Crop the last 10 seconds of background music in the `.wav` files using `crop_audio.py`.
+
+**Command**:  
+```bash
+python crop_audio.py -i <INPUT_DIR> -o <OUTPUT_DIR>
+```
+
+**Requirements**:  
+- `wave`  
 
 ---
 
