@@ -18,6 +18,7 @@ Ensure you have the following Python libraries and system tools installed before
   - `mutagen`  
   - `pandas`
   - `wave`
+  - `gdown`
 
 - **System Tools**:  
   - `GNU Parallel`  
@@ -59,6 +60,8 @@ python download_transcript.py -o <OUTPUT_DIR> -i <COURSE_URL>
 - `-o, --output_dir` : Directory to save transcript files.  
 - `-i, --course_url` : URL of the NPTEL course.  
 
+**Requirements**: 
+- `gdown`
 ---
 
 ### 3. **Preprocess Audio Files**  
